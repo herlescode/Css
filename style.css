@@ -126,3 +126,10 @@ footer img {
 .imgbeneficios {
     width: 50%;
 }
+.mapa {
+    margin: 30px;
+}
+.mapa p {
+    text-align: center;
+    padding: 0 0 20px;
+}
