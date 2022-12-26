@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .07em; /* espacamento entre as letras de toda a página*/
+    line-height: 1.4em; /*espaçamento entre as linhas do texto*/
+}
 header {
     background: #d2d0d0;
     padding: 20px 0px;
@@ -98,11 +103,19 @@ footer img {
 /* css da pagina index.html */
 .banner {
     width: 100%;
+    height: 450px ;
+
 }
 .titulo-principal {
     font-size: 2em;
     text-align: center;
     margin: 0 0 1em;
+    clear: left; /* esse comando serve para limpar a imagem coloca com float:left, sem isso o titulo fica grudado */
+}
+.utensilios {
+    width: 120px;
+    float: left;
+    padding: 0 20px 20px 0;
 }
 .principal strong {
     font-weight: bold;
@@ -112,5 +125,4 @@ footer img {
 }
 .imgbeneficios {
     width: 50%;
-   
 }
